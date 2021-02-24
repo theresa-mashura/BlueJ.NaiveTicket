@@ -27,11 +27,11 @@ Work through all these exercises. You edit this file with your answers for these
 ### Exercise 2.3
 * Experiment with inserting different amounts of money before printing tickets.
 	* Do you notice anything strange about the machine’s behavior?
-	* 	It ouputs the wrong ticket price. 
+	 	It ouputs the wrong ticket price. 
 	* What happens if you insert too much money into the machine – do you receive any refund?
-	* 	Ticket price printed is wrong. No refund. 
+		Ticket price printed is wrong. No refund. 
 	* What happens if you do not insert enough and then try to print a ticket?
-	* 	Tells you the amount you still owe. 
+		Tells you the amount you still owe. 
 
 ### Exercise 2.4
 * X Try to obtain a good understanding of a ticket machine’s behavior by interacting with it on the object bench before we start looking at how the `TicketMachine` class is implemented in the next section.
@@ -40,7 +40,7 @@ Work through all these exercises. You edit this file with your answers for these
 * Create another ticket machine for tickets of a different price.
 	* X Buy a ticket from that machine.
 	* Does the printed ticket look different?
-	* 	The price is different.
+		The price is different.
 
 ### Exercise 2.6
 * Write out what you think the outer wrappers of the `Student` and `LabClass` classes might look like – do not worry about the inner part.
@@ -64,15 +64,15 @@ in the outer wrapper of a class?
 
 * Edit the source of the `TicketMachine` class to make the change and then close the editor window.
 	* Do you notice a change in the class diagram?
-	* 	Yes, has a reddish pattern on it
+		Yes, has a reddish pattern on it
 	* What error message do you get when you now press the compile button?
 	* Do you think this message clearly explains what is wrong?
-	* 	Error(s) found in class 
-	* 	<identifier> expected
+	 	Error(s) found in class 
+	 	<identifier> expected
 
 ### Exercise 2.8
 * Check whether or not it is possible to leave out the word `public` from the outer wrapper of the `TicketMachine` class.
-* 	Yes, it is possible
+ 	Yes, it is possible
 
 ### Exercise 2.9
 * From your earlier experimentation with the ticket machine objects within BlueJ you can probably remember the names of some of the methods – `printTicket`, for instance.
@@ -83,7 +83,7 @@ in the outer wrapper of a class?
 		Methods: getPrice, getTicketNumber, getBalance, insertMoney, calculateTotal, incrementTicketNumber, printTicket
 ### Exercise 2.10
 * Do you notice any features of the constructor that make it significantly different from the other methods of the class?
-* 	All it does it set the fields equal to a value. It does not return anything like the other methods. 
+	All it does it set the fields equal to a value. It does not return anything like the other methods. 
 
 ### Exercise 2.11
 * What do you think is the type of each of the following fields?
@@ -100,7 +100,7 @@ private Server host;			Object
 ```java
 private boolean alive;			alive	
 private Person tutor;			tutor
-private Game game;			person
+private Game game;			game
 ```
 ### Exercise 2.13
 
@@ -115,17 +115,18 @@ does it matter which order the three words appear in?
 possible?
 	* Check by pressing the compile button to see if there is an error message.
 	* Make sure that you reinstantiate the original version after your experiments!
-	* 	Yes, the order does matter. It will throw errors if not in correct order. 
+		Yes, the order does matter. It will throw errors if not in correct order. 
 
 ### Exercise 2.14
 * Is it always necessary to have a semicolon at the end of a field declaration?
 * Once again, experiment via the editor.
 * The rule you will learn here is an important one, so be sure to remember it.
-* 	Yes, it will give an error if you don't.
+	Yes, it will give an error if you don't.
 
 
 ### Exercise 2.15
 * Write in full the declaration for a field of type `int` whose name is `status`.
+	private int status;
 
 ### Exercise 2.16
 * To what class does the following constructor belong?
@@ -143,8 +144,8 @@ public Book(String title, double price)
 
 ### Exercise 2.18
 * Can you guess what types some of the `Book` class’s fields might be?
-* 	Mostly likely String and double as that's what the parameter types are
+ 	Mostly likely String and double as that's what the parameter types are
 * Can you assume anything about the names of its fields?
-* 	May be the same or similar to the names of the parameters
+	May be the same or similar to the names of the parameters
 
 READ upto and INCLUDING section 2.15 of this chapter.
