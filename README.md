@@ -27,11 +27,11 @@ Work through all these exercises. You edit this file with your answers for these
 ### Exercise 2.3
 * Experiment with inserting different amounts of money before printing tickets.
 	* Do you notice anything strange about the machine’s behavior?
-	 	It ouputs the wrong ticket price. 
+	 	It lets you put in nonsense values or too big or too small and still prints the ticket anyway. 
 	* What happens if you insert too much money into the machine – do you receive any refund?
 		Ticket price printed is wrong. No refund. 
 	* What happens if you do not insert enough and then try to print a ticket?
-		Tells you the amount you still owe. 
+		It will still print a ticket even though you didn't pay enough. 
 
 ### Exercise 2.4
 * X Try to obtain a good understanding of a ticket machine’s behavior by interacting with it on the object bench before we start looking at how the `TicketMachine` class is implemented in the next section.
@@ -60,7 +60,7 @@ Does it matter whether we write<br>
 or<br>
 `class public TicketMachine`<br>
 in the outer wrapper of a class?
-	Yes
+	Yes, it has to be written in a certain order or will give an error
 
 * Edit the source of the `TicketMachine` class to make the change and then close the editor window.
 	* Do you notice a change in the class diagram?
@@ -115,7 +115,8 @@ does it matter which order the three words appear in?
 possible?
 	* Check by pressing the compile button to see if there is an error message.
 	* Make sure that you reinstantiate the original version after your experiments!
-		Yes, the order does matter. It will throw errors if not in correct order. 
+		Yes, the order does matter. 
+		It will throw errors if not in correct order. 
 
 ### Exercise 2.14
 * Is it always necessary to have a semicolon at the end of a field declaration?
@@ -146,6 +147,6 @@ public Book(String title, double price)
 * Can you guess what types some of the `Book` class’s fields might be?
  	Mostly likely String and double as that's what the parameter types are
 * Can you assume anything about the names of its fields?
-	May be the same or similar to the names of the parameters
+	Maybe the same or similar to the names of the parameters
 
 READ upto and INCLUDING section 2.15 of this chapter.
